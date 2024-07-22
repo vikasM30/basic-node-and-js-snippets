@@ -1,0 +1,18 @@
+const os = require('os');
+
+console.log('CPU architecture(arch) : ', os.arch())
+console.log('operating system-specific constants : ', os.constants)
+console.log('Returns an array of objects containing information about each logical CPU core : ', os.cpus())
+console.log('Returns a string identifying the endianness of the CPU for which the Node.js binary was compiled : ', os.endianness(), 'little endian')
+console.log('fre sys memory : ', os.freemem(), 'bytes')
+console.log('tot mem : ', os.totalmem())
+console.log('hostname : ', os.hostname())
+console.log('home dir : ', os.homedir())
+console.log('for net address : ', os.networkInterfaces())
+console.log('paltform : ', os.platform())
+console.log('returns os version : ', os.release())
+console.log('Returns the operating systems default directory for temporary files as a string : ', os.tmpdir())
+console.log('returns os name: ', os.type())
+console.log('system uptime in seconds: ', os.uptime())
+console.log('kernel version: ', os.version())
+console.log('kernel version: ', os.cpus().length)

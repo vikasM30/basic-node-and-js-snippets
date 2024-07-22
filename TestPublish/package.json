@@ -1,0 +1,15 @@
+{
+  "name": "testingpublishforme",
+  "version": "1.0.0",
+  "description": "\"This is a sample code to test publish\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vikas",
+  "license": "ISC",
+  "dependencies": {
+    "readme-md-generator": "^1.0.0",
+    "testingpublishforme": "^1.0.0"
+  }
+}

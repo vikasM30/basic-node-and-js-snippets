@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  first-docker-container:
+    build: .
+    ports:
+      - "3000:4000"
+    environment:
+      - PORT=4000
+
+  mongo:
+    image: mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=vikas
+      - MONGO_INITDB_ROOT_PASSWORD=mishra
+    volumes:
+      - mongo-db:/data/db
+
+volumes:
+  mongo-db:

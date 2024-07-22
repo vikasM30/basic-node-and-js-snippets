@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  first-docker-container:
+    build:
+      context: .
+      args:
+        NODE_ENV: production
+    environment:
+      - NODE_ENV=production
+    command: node index.js
